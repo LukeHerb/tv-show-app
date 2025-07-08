@@ -26,7 +26,7 @@ const featuredShow = ref(null)
 const fetchTrending = async () => {
   try {
     const response = await getTrendingTv()
-    trendingShows.value = response.slice(0, 20)
+    trendingShows.value = response.slice(0, 10)
     setFeaturedShow(response[0])
   } catch (error) {
     console.error('Error fetching trending shows:', error)
