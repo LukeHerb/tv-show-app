@@ -1,6 +1,6 @@
 # 🎬 Streaming Platform UI — Vue + TMDb + Tailwind
 
-This is a fully responsive streaming platform interface built with Vue 3, Tailwind CSS, and the TMDb API. It replicates a modern UI experience similar to Netflix, showcasing my ability to combine API integration, design, and interactivity into a polished product.
+This is a fully responsive streaming platform interface built with Vue 3, Tailwind CSS, and the TMDb API.
 
 ---
 
