@@ -14,7 +14,7 @@ export async function getTrendingTv() {
   const dateStr = threeMonthsAgo.toISOString().split('T')[0]
 
   const res = await fetch(
-    `${BASE_URL}/discover/tv?include_adult=false&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&watch_region=US&with_watch_providers=350|8|9|15&without_genres=16&first_air_date.gte=${dateStr}`,
+    `${BASE_URL}/discover/tv?include_adult=false&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&watch_region=US&with_watch_providers=350|8|9|15&without_genres=16`,
     HEADERS
   )
   const data = await res.json()
